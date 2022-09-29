@@ -1,0 +1,74 @@
+{
+    "name": "Sohail Unverified Token List",
+    "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 0
+    },
+    "logoURI": "https://media.npr.org/assets/img/2016/03/29/ap_090911089838_sq-3271237f28995f6530d9634ff27228cae88e3440-s1100-c50.jpg",
+    "keywords": [
+        "polygon",
+        "default",
+        "tokens"
+    ],
+    "tags": {
+        "stablecoin": {
+            "name": "Stablecoin",
+            "description": "Tokens that are fixed to an external asset, e.g. the US dollar"
+        },
+        "swapable": {
+            "name": "Swapable",
+            "description": "Tokens are eligible for swaps"
+        },
+        "erc20": {
+            "name": "erc20",
+            "description": "Tokens are of ERC20 token type"
+        },
+        "pos": {
+            "name": "PoS",
+            "description": "PoS tokens"
+        },
+        "plasma": {
+            "name": "Plasma",
+            "description": "Plasma tokens"
+        },
+        "metaTx": {
+            "name": "MetaTx",
+            "description": "Tokens are eligible for meta transactions"
+        },
+        "noDeposit": {
+            "name": "Deposit Disabled",
+            "description": "Tokens are not eligible for deposits"
+        },
+        "noWithdraw": {
+            "name": "Withdraw Disabled",
+            "description": "Tokens are not eligible for withdraws"
+        }
+    },
+    "timestamp": "2022-02-21T07:42:16.582Z",
+    "tokens": [
+        {
+            "chainId": 137,
+            "name": "Calcutta",
+            "symbol": "CCU",
+            "decimals": 18,
+            "address": "0x66b49d3926609b97b2b0d79d25ab431c855777db",
+            "logoURI": "NO_LOGO",
+            "tags": [
+                "pos",
+                "erc20",
+                "swapable",
+                "metaTx"
+            ],
+            "extensions": {
+                "rootAddress": "0xefd644601A21769E8A24A064E73D48598a2b3329",
+                "project": {
+                    "name": "Calcutta",
+                    "summary": "-",
+                    "contact": "-",
+                    "website": "https://weth.io/"
+                }
+            }
+        }
+    ]
+}
